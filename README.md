@@ -19,13 +19,15 @@ Zusammen laufen beide Bestandteile auf einem lokalen Server auf dem Raspberry Pi
 Lade dir den Source Code herunter.
 Öffne ein Terminal und begebe dich dort in den Ordner „Data“.
 Installiere mit diesem Befehl die benötigten Python Bibliotheken:
+
 pip install -r requirements.txt
+
 
 Es kann sein, dass du den Raspberry danach nochmals neustarten musst.
 Schließe die Sensoren nun folgendermaßen an die GPIO Pins des 
 Pis an:
 
-<img src="https://raw.githubusercontent.com/its-sven/ablage/main/pics/mfg_waechter_whiteBG.png?token=GHSAT0AAAAAAB43CET6D44W33UYRQQBB45OY6BBZIQ"/> 
+<img src="https://raw.githubusercontent.com/its-sven/ablage/main/pics/mfg_waechter_whiteBG.png?token=GHSAT0AAAAAAB43CET7ILIKWA3EJHVHV4ZAY6BDLVQ"/> 
 
 
 ## Starten:
