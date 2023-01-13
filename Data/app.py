@@ -9,6 +9,7 @@ import adafruit_dht
 import digitalio
 
 
+
 ## Flask aufsetzen
 app = Flask(__name__)
 CORS(app)

@@ -1,8 +1,4 @@
 # MFG-Wächter
-The MFG-Guardian inspired by <a href="https://github.com/JoBwo">JoBwo<a/> - <a href="https://nerd-im-inter.net/">Nerd-Im-Inter.net<a/>
-
-
-# Wächter
 
 ## Überwachen, was im Kasten passiert.
 
@@ -19,3 +15,28 @@ Das Frontend (das, was der Nutzer sieht) ist in Svelte, das Backend (das, was di
 Zusammen laufen beide Bestandteile auf einem lokalen Server auf dem Raspberry Pi.
 
 
+## Installation:
+Lade dir den Source Code herunter.
+Öffne ein Terminal und begebe dich dort in den Ordner „Data“.
+Installiere mit diesem Befehl die benötigten Python Bibliotheken:
+pip install -r requirements.txt
+
+Es kann sein, dass du den Raspberry danach nochmals neustarten musst.
+Schließe die Sensoren nun folgendermaßen an die GPIO Pins des 
+Pis an:
+
+<img src="https://raw.githubusercontent.com/its-sven/ablage/main/pics/mfg_waechter_whiteBG.png?token=GHSAT0AAAAAAB43CET6D44W33UYRQQBB45OY6BBZIQ"/> 
+
+
+## Starten:
+Bewege dich erneut mit dem Terminal in den Ordner „Data“
+Führe dort den folgenden Befehl aus:
+
+python3 app.py
+
+Danach kannst du einen Browser öffnen und dort über den Port „8000“ auf die Oberfläche zugreifen.
+https://127.0.0.1:8000/
+Hier werden dir nun die Werte von Luftfeuchtigkeit, Temperatur und der Status der Tür angezeigt.
+
+Ein Beispiels Video findet ihr hier:
+https://kuli.es/MFG-VOD
