@@ -27,7 +27,7 @@ Es kann sein, dass du den Raspberry danach nochmals neustarten musst.
 Schließe die Sensoren nun folgendermaßen an die GPIO Pins des 
 Pis an:
 
-<img src="https://raw.githubusercontent.com/its-sven/ablage/main/pics/mfg_waechter_whiteBG.png?token=GHSAT0AAAAAAB43CET7ILIKWA3EJHVHV4ZAY6BDLVQ"/> 
+<img src="https://raw.githubusercontent.com/its-sven/ablage/main/pics/mfg_waechter_whiteBG.png"/> 
 
 
 ## Starten:
